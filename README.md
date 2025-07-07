@@ -1,14 +1,14 @@
-## 📘 `README.md`
+## `README.md`
 
-# 🧠 Camera Calibration Suite
+# Camera Calibration Suite
 
 A complete camera calibration toolkit using OpenCV.
 
 ## Features
-✅ Capture calibration images from webcam
-✅ Calibrate camera using checkerboard images
-✅ Visualize real-time undistorted output
-✅ Save detection GIF for documentation
+✅ Capture calibration images from webcam  
+✅ Calibrate camera using checkerboard images  
+✅ Visualize real-time undistorted output  
+✅ Save detection GIF for documentation  
 
 ---
 
@@ -29,16 +29,22 @@ camera-calibration/
 │   └── calibration.gif
 └── README.md
 
+---
+
 ## 🧩 Setup
 ```bash
 # Clone the repository
 git clone --recursive https://github.com/salohiddin22/camera-calibration.git
+
 # Navigate to the project folder.
 cd camera-calibration
+
 # Create the Conda environment.
 conda create -n camera-calibration python==3.10.0
+
 # Activate the new environment
 conda activate camera-calibration
+
 # Install the necessary requirements
 pip install -r requirements.txt
 ```
@@ -89,4 +95,4 @@ MIT
 
 This project builds upon this excellent open source project:
 
-* Camera-calibration: Original implementation of ther calibration
+[Overview](https://github.com/RakhmatovShohruh/Camera_Calibration#Overview) Original implementation of the calibration
