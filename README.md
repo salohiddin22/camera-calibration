@@ -63,7 +63,7 @@ python capture_images.py --camera_id 0 --save_dir images
 ```bash
 python calibrate_camera.py --images_dir images --pattern_size 8 5 --square_size 24
 ```
-> If your checkerboard has 9 squares wide × 6 squares high, use `8 5` for pattern_size.
+> If your checkerboard has 9 squares wide × 6 squares high, use `8 5` for pattern_size.  
 > Count inner corners, not squares. Include both black & white squares.
 
 ---
@@ -95,4 +95,4 @@ MIT
 
 This project builds upon this excellent open source project:
 
-[Overview](https://github.com/RakhmatovShohruh/Camera_Calibration#Overview) Original implementation of the calibration
+[Camera Calibration](https://github.com/RakhmatovShohruh/Camera_Calibration#Overview) Original implementation of the calibration
