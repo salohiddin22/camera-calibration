@@ -1,23 +1,3 @@
-
-
-# ## 📁 Directory Structure
-
-# .
-# ├── capture_images.py
-# ├── calibrate_camera.py
-# ├── test_live_camera.py
-# ├── info/
-# │   ├── calibration.npz
-# │   └── out_v1.txt
-# ├── images/
-# │   └── imgXX.png
-# ├── output/
-# │   └── calibration.gif
-# └── README.md
-# ```
-
-# ---
-
 import cv2
 import os
 import argparse
